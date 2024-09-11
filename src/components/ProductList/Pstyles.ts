@@ -10,6 +10,11 @@ export const ContainerGrid = styled.main`
   align-items: stretch;
   gap: 1rem;
 
+  @media (max-width: 375px) {
+    flex-direction: column;
+    width: auto;
+  }
+
   & > * {
     flex: 1 300px;
   }

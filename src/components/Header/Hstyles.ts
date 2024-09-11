@@ -14,6 +14,10 @@ export const Wrapper = styled.div`
   margin: 0 auto;
   padding: 0 3rem;
   height: 78px;
+  @media (max-width: 375px) {
+    padding: 0 1rem;
+    font-size: 14px;
+  }
 `;
 
 export const StyledTitle = styled.h1`
@@ -61,4 +65,7 @@ export const ImgProm = styled.img`
   height: 500px;
   width: 100%;
   margin-top: 18px;
+  @media (max-width: 375px) {
+    height: 100%;
+  }
 `;
